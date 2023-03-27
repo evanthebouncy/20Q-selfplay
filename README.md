@@ -9,6 +9,7 @@ Original 1854 objects de-duplicated: bat(animal) and bat(sport tool) collapsed i
 
 ## Read the blog for full details: 
 
+https://evanthebouncy.medium.com/llm-self-play-on-20-questions-dee7a8c63377
 
 20Questions is also explored in BIG-bench (albeit with only 40 objects):
 
