@@ -1,5 +1,5 @@
 # 20Q-selfplay
-LLM play 20questions with itself
+LLM play 20questions with itself. Browse the dataset here : https://evanthebouncy.github.io/20Q-selfplay/ 
 
 Tested on 1823 hypotheses from the THINGS dataset, llm = OpenAI(model_name="gpt-3.5-turbo-0301"), score of 68 / 1823.
 
