@@ -5,7 +5,10 @@ Tested on 1823 hypotheses from the THINGS dataset, llm = OpenAI(model_name="gpt-
 
 ![alt text](https://raw.githubusercontent.com/evanthebouncy/20Q-selfplay/main/summary_20Q.png)
 
+Original 1854 objects de-duplicated: bat(animal) and bat(sport tool) collapsed into 1 concept.
+
 ## Read the blog for full details: 
+
 
 20Questions is also explored in BIG-bench (albeit with only 40 objects):
 
