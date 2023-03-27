@@ -29,8 +29,12 @@ $(function() {
     for (var key in data) {
         // create a dummy div to hold the accordion
         var accordion = $("<div></div>");
-        // put the title into this accordion
-        accordion.append("<h3>" + key + "</h3>");
+        // check the number of questions / answers in this accordion
+        var numbers = data[key].length;
+        // if the length is less than 21, the problem is 'solved'
+        var solved = numbers < 21;
+        // put the title into this accordion, along with whether it is solved or not
+        accordion.append("<h2>" + key + " (" + (solved ? "success" : "fail") + ")</h2>");
         // create a dummy div to hold the content of the accordion, it should be a list of question / answer pairs
         var content = $("<div></div>");
         // the value is a list of question / answer pairs, iterate over them
