@@ -3,6 +3,8 @@ LLM play 20questions with itself
 
 Tested on 1823 hypotheses from the THINGS dataset, llm = OpenAI(model_name="gpt-3.5-turbo-0301"), score of 68 / 1823.
 
+![alt text](https://raw.githubusercontent.com/evanthebouncy/20Q-selfplay/main/summary_20Q.png)
+
 ## Read the blog for full details: 
 
 20Questions is also explored in BIG-bench (albeit with only 40 objects):
