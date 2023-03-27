@@ -1,9 +1,12 @@
 # 20Q-selfplay
 LLM play 20questions with itself
 
-## Read the blog here: 
 
-20Questions is also explored in BIG-bench so check it out:
+Tested on 1845 hypotheses from the THINGS dataset, llm = OpenAI(model_name="gpt-3.5-turbo-0301"), score of 
+
+## Read the blog for full details: 
+
+20Questions is also explored in BIG-bench (albeit with only 40 objects):
 
 https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/twenty_questions 
 
