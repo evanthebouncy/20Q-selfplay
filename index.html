@@ -1,12 +1,16 @@
 <head>
-    <h1> LLM (gpt-3.5-turbo) self play on 20 Questions </h1>
+    <h1> LLM self play on 20 Questions </h1>
 </head>
 
 <body>
-    <script src="batch_20Q_1823.js"></script>
-    <!-- jquery stuff -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="batch_20Q_1823.js"></script>
+    <script src="batch_20Q_1823_gpt4.js"></script>
+    <!-- jquery stuff -->
     <script src="index.js"></script>
     
+    <button id="switch-model">Switch Model</button>
+    <h3 id="model-type"> model is </h3>
     <div id="data_here"></div>
 </body>
